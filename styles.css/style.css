@@ -195,3 +195,13 @@ body {
     width: auto;
   }
 }
+@media (min-width: 1200px) {
+  .foto-perfil img {
+      width: auto;
+      flex-direction: column;
+    }
+    .foto-perfil {
+      width: auto;
+      flex-direction: column;
+    }
+}
